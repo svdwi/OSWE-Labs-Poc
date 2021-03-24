@@ -1,0 +1,44 @@
+version: "3"
+
+services:
+    webserver:
+        build: ./bin/webserver
+        ports: 
+            - "8009:80"
+        volumes:
+            - ./www:/var/www/html/
+        networks:
+            - default
+            
+    mysql:
+        build: ./bin/mysql
+        container_name: 'png-mysql-test'
+        # restart: 'always'
+        ports:
+            - "3306:3306"
+        volumes:
+            - ./data/mysql:/var/lib/mysql
+            - ./logs/mysql:/var/log/mysql/
+        restart: unless-stopped
+
+
+        environment:
+            MYSQL_ROOT_PASSWORD: password
+            MYSQL_DATABASE: demo
+            MYSQL_USER: root
+            MYSQL_PASSWORD: password
+         
+
+    phpmyadmin:
+        build: ./bin/phpmyadmin
+        links:
+            - mysql
+        environment:
+            PMA_HOST: mysql
+            PMA_PORT: 3306
+        ports:
+            - '8010:80'
+        volumes:
+            - /sessions
+
+
