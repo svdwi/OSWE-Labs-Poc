@@ -18,7 +18,9 @@ Dockerized labs For Web Expert (OSWE) certification. Preparation for coming AWAE
 
 ## Instructions
 You must follow the following steps:
+
 For Atutor : 
+
  ```
 $ ./run_lab.sh
 ```
