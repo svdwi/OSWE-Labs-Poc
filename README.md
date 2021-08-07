@@ -4,6 +4,10 @@
 Dockerized labs For Web Expert (OSWE) certification. Preparation for coming AWAE Training ... 
  
  
+[![GitHub Repo stars](https://img.shields.io/github/stars/svdwi?style=social)](https://twitter.com/aziz_saadaoui)
+[![Twitter Follow](https://img.shields.io/twitter/follow/aziz_saadaoui?style=social)](https://twitter.com/intel_owl)
+[![Official Site](https://img.shields.io/badge/official-site-blue)](https://github.com/svdwi)
+
 ## Available labs for the OSWE 
 
  1. **ATutor** is an Open Source Web-based Learning Content Management
@@ -17,6 +21,8 @@ Dockerized labs For Web Expert (OSWE) certification. Preparation for coming AWAE
 
 
 ## Instructions
+Atutor + POC + Tools 
+
 You must follow the following steps:
 
 For Atutor : 
