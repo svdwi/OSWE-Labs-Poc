@@ -7,9 +7,10 @@ Dockerized labs For Web Expert (OSWE) certification. Preparation for coming AWAE
 [![GitHub Repo stars](https://img.shields.io/github/stars/svdwi?style=social)](https://twitter.com/aziz_saadaoui)
 [![Twitter Follow](https://img.shields.io/twitter/follow/aziz_saadaoui?style=social)](https://twitter.com/intel_owl)
 [![Official Site](https://img.shields.io/badge/official-site-blue)](https://github.com/svdwi)
-#another project :
-malware analysis & cyber threat hunting 
-https://github.com/svdwi/BlueBox
+<br/>
+Another project :<br/>
+malware analysis & cyber threat hunting <br/>
+https://github.com/svdwi/BlueBox<br/>
 
 
 ## Available labs for the OSWE 
